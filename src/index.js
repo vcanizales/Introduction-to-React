@@ -11,12 +11,9 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 function App() {
-    const name = 'Valeria';
-
-    return <div>
-        My name is:
-        <h1>{name}</h1>
-    </div>
+    return (
+        <input placeholder="hi there" />
+    );
 }
 
 // 5) Show the component on the screen
