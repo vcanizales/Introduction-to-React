@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a component
 function App() {
     return (
-        <input placeholder="hi there" />
+        <style={{backgroundColor: "gray"}} />
     );
 }
 
